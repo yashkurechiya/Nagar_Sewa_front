@@ -48,7 +48,11 @@ const RegisterComplaint = () => {
 
 
   return (
-    <div className="p-15 bg-black justify-center items-center flex min-h-screen">
+    <div className="p-15 bg-black justify-center items-center flex flex-col min-h-screen">
+      <div className="h-10 w-250 bg-red-600 rounded-full font-bold text-white p-2 text-center">
+        इस पोर्टल पर झूठी या भ्रामक शिकायत दर्ज करना दंडनीय हो सकता है।
+        उपयोगकर्ता द्वारा दी गई जानकारी की पूर्ण जिम्मेदारी उसी की होगी।
+      </div>
       <form
         onSubmit={handleSubmit}
         className="space-y-6 bg-zinc-950 border max-w-3xl mt-10 border-zinc-800 rounded-xl p-8 shadow-2xl"
@@ -80,7 +84,6 @@ const RegisterComplaint = () => {
             <option value="Electricity" className="bg-zinc-900">Electricity</option>
             <option value="Road" className="bg-zinc-900">Road</option>
             <option value="Garbage" className="bg-zinc-900">Garbage</option>
-            <option value="Other" className="bg-zinc-900">Other</option>
           </select>
         </div>
 

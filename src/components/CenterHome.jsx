@@ -30,6 +30,7 @@ const CenterHome = () => {
             <button className='mt-4 px-4 py-2 cursor-pointer hover:bg-black/80 bg-black text-white rounded'>Learn More</button>
         </div>
       </div>
+      
     </div>
   )
 }

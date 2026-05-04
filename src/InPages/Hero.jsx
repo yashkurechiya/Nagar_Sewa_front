@@ -41,6 +41,7 @@ const Hero = () => {
           <strong className='z-30'>Mayor, IMC Indore</strong>
         </div>
       </div>
+      
     </div>
   )
 }
